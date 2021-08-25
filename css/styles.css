@@ -10,7 +10,6 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
-    background-color: darkgray; /* temporary color */
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 0.9375rem;
     font-family: 'Lexend Deca', sans-serif;
@@ -54,8 +53,6 @@ Layout
 */
 
 .card{
-    display: flex;
-    flex-direction: column;
     width: 85%;
     min-width: 319px;
     border-radius: 12px;
@@ -66,8 +63,13 @@ Layout
     padding: 3em;
 }
 
+.column__title{
+    margin: 1em 0;
+}
+
 .column__text{
     line-height: 1.7rem;
+    margin-bottom: 2em;
 }
 
 .card__column--orange{
