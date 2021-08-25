@@ -21,6 +21,10 @@ img{
     display: block;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* 
 ==================
 Fonts/Colors
@@ -129,9 +133,14 @@ Attribution
 */
 
 .attribution {
-    color: #000;
+    color: rgb(31, 31, 31);
     font-size: 11px; text-align: center;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover, a:active, a:focus{
+    color: hsl(256, 45%, 44%);
+    text-decoration: underline;
 }
