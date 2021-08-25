@@ -1,10 +1,107 @@
-
+/* 
+==================
+Global Styles
+==================
+*/
 body{
-    font-family: 'Big Shoulders Display', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    background-color: darkgray; /* temporary color */
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9375rem;
     font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
 }
 
+img{
+    display: block;
+}
+
+/* 
+==================
+Fonts/Colors
+==================
+*/
+
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+}
+
+.column__button--orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.column__button--cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+.column__button--dark-cyan{
+    color: hsl(179, 100%, 13%);
+}
+
+/* 
+==================
+Layout
+==================
+*/
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    min-width: 319px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card__column{
+    padding: 3em;
+}
+
+.column__text{
+    line-height: 1.7rem;
+}
+
+.card__column--orange{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card__column--cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card__column--dark-cyan{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.column__button{
+    padding: 1em 2.3em;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 100px;
+}
+
+.column__button:hover, .column__button:active, .column__button:focus{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+
+/* 
+==================
+Attribution
+==================
+*/
+
 .attribution {
+    color: #000;
     font-size: 11px; text-align: center;
 }
 .attribution a {
