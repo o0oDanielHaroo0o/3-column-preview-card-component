@@ -8,6 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 6.66666em 0;
     min-height: 100vh;
     background-color: hsl(0, 0%, 95%);
     color: hsla(0, 0%, 100%, 0.75);
@@ -68,6 +69,7 @@ Layout
 }
 
 .column__text{
+    max-width: 372px;
     line-height: 1.7rem;
     margin-bottom: 2em;
 }
@@ -94,6 +96,30 @@ Layout
 .column__button:hover, .column__button:active, .column__button:focus{
     background-color: transparent;
     color: hsl(0, 0%, 95%);
+}
+
+/* 
+==================
+Media Queries
+==================
+*/
+
+@media (min-width: 730px){
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+
+    .column__text{
+        max-width: 210px;
+        min-height: 270px;
+    }
+}
+
+@media (min-width: 830px){
+    .column__text{
+        min-height: 187.5px;
+    }
 }
 
 /* 
