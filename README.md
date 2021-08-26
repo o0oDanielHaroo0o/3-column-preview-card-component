@@ -56,7 +56,7 @@ Here's the finished project.
 
 I want to continue practicing responsive designs to get better at them.
 
-I ran into a problem with the border-radius. Starting at 1055px screen width it seems to flatten out and ends up looking like a regular box. I can't seem to find the source of this issue, hopefully I'll find the solution and I'll fix it.
+I ran into a problem with `the border-radius` of the `.card`. Starting at 1055px screen width it seems to flatten out and ends up looking like a regular box. I fixed it by giving the children elements `.card__column--orange` and `.card__column--dark-cyan` the same `border-radius` as the father. It definitely fixes the problem but I still don't understand why it happened in the first place.
 
 As a side challenge I tried to estimate how long would it take me to finish this challenge. I set a timer for 2 hours and just managed to finish it on time. So I think my estimation was correct but I should give myself a little more time in case I encounter any delays. I'll keep doing this for future challenges to improve my project estimations' skill.
 
